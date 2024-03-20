@@ -26,6 +26,8 @@ None
 
 ## Usage
 
+As always, try first on a temporary copy of a database or practise on those in the test directory.
+
 ...soon
 
 ## Bug reports
