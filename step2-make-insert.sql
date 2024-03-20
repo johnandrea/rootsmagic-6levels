@@ -1,6 +1,10 @@
 -- create a script to insert new event entries
 -- for everyone who doesn't already have it
 
+-- This code is released under the MIT License: https://opensource.org/licenses/MIT
+-- Copyright (c) 2024 John A. Andrea
+-- v1.0
+
 .headers off
 .separator ""
 .output step3-do-insert.sql

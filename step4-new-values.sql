@@ -1,5 +1,12 @@
 -- update level data based on existing data
 
+-- This code is released under the MIT License: https://opensource.org/licenses/MIT
+-- Copyright (c) 2024 John A. Andrea
+-- v1.0
+
+-- heavy on the subselectes
+-- appears that zero is used frequently instead of null, not sure if due to SQLite or RootsMagic
+
 -- everyone with nothing goes to level 1
 update EventTable set Details='1'
 where Details like ''

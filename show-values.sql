@@ -1,5 +1,9 @@
 -- who has the 6levels values
 
+-- This code is released under the MIT License: https://opensource.org/licenses/MIT
+-- Copyright (c) 2024 John A. Andrea
+-- v1.0
+
 .mode column
 .headers on
 .output existing-values.out
