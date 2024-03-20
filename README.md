@@ -3,7 +3,7 @@ Insert 6levels facts into a RootsMagic database.
 
 "6 levels" is a genealogy research concept from Yvette Hoitink:
 https://www.dutchgenealogy.nl/six-levels-ancestral-profiles/
-The 6 level values should be stored in the database as a custom fact; value 0 to 6.
+The 6 level values will be stored in the database as a custom fact; value 0 to 6.
 
 These steps add the fact, at level 1, to everyone who does not have the fact. Then
 upgrades to level 2, 3 or 4 based on other facts such as birth, death, census, marriage data/place, etc.
