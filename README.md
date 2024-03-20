@@ -11,7 +11,7 @@ Because a level is never down graded the scripts can be repeated after new peopl
 facts are added.
 
 This code does not make use of level 0 (unknown name) due to no easy/consistant way to
-describe someone with no name. And this code can't set any levels above 4 because those
+describe someone with no name. And this code can't set levels 5 or 6 because those
 are subjective.
 
 ## Installation
