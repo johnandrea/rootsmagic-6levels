@@ -35,7 +35,7 @@ As always, try first on a temporary copy of a database or practise on those in t
 The upgrading of levels operates like this:
 - everyone with nothing goes to level 1
 - upgrade 1 to 2 for birth / death / similar
-- upgrade 1 to 2 for marriage record with death or place
+- upgrade 1 to 2 for marriage record with date or place
 - upgrade 2 to 3 for census
 - upgrade 2 to 3 for family census
 - upgrade 2 to 3 for known spouse
