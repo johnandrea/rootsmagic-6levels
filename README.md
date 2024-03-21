@@ -34,14 +34,14 @@ First use the RootsMagic program to create a custom fact for someone, but leave 
 I use the name "6levels" and that name is used within the sql scripts. Exit RootsMagic.
 
 Using the command line SQLite program.
-'''
+```
 $ sqlite3
 sqlite> .open path-to-file/rootsmagic-database.rmtree
 sqlite> .read step2-make-insert.sql
 sqlite> .read step3-do-insert.sql
 sqlite> .read step4-new-values.sql
 sqlite> .q
-'''
+```
 
 Note that step2 creates the step3 file.
 
