@@ -2,7 +2,7 @@
 
 -- This code is released under the MIT License: https://opensource.org/licenses/MIT
 -- Copyright (c) 2024 John A. Andrea
--- v1.0
+-- v1.1
 
 .mode column
 .headers on
