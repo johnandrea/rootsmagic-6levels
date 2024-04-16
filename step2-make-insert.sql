@@ -3,7 +3,7 @@
 
 -- This code is released under the MIT License: https://opensource.org/licenses/MIT
 -- Copyright (c) 2024 John A. Andrea
--- v1.0
+-- v1.1
 
 .headers off
 .separator ""
@@ -14,13 +14,13 @@ select 'insert into EventTable (Details,FamilyId,OwnerType,OwnerId,EventType) va
 0, ', ',
 0, ', ',
 PersonID,', ',
-(select FactTypeID from FactTypeTable where Name like'6levels'),
+(select FactTypeID from FactTypeTable where Name like '6levels'),
 ');'
 from PersonTable
 where PersonID not in
 (select OwnerID from EventTable
   where EventType =
-  (select FactTypeID from FactTypeTable where Name like'6levels')
+  (select FactTypeID from FactTypeTable where Name like '6levels')
 )
 ;
 
